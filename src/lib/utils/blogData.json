@@ -1,0 +1,59 @@
+{
+  "categories": [
+    {
+      "name": "Traditional Rugs",
+      "icon": "🏛️",
+      "description": "Classic patterns and timeless designs"
+    },
+    {
+      "name": "Maintenance",
+      "icon": "🧽",
+      "description": "Care tips and cleaning guides"
+    },
+    {
+      "name": "Design Tips",
+      "icon": "🎨",
+      "description": "Interior design and styling advice"
+    },
+    {
+      "name": "Buying Guide",
+      "icon": "🛒",
+      "description": "Expert advice for smart purchases"
+    },
+    {
+      "name": "Sustainability",
+      "icon": "🌱",
+      "description": "Eco-friendly options and practices"
+    },
+    {
+      "name": "Small Spaces",
+      "icon": "🏠",
+      "description": "Solutions for compact living"
+    },
+    {
+      "name": "Modern Rugs",
+      "icon": "✨",
+      "description": "Contemporary designs and trends"
+    },
+    {
+      "name": "Handmade Crafts",
+      "icon": "✋",
+      "description": "Artisan techniques and craftsmanship"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "The Art of Persian Rug Weaving",
+      "slug": "art-of-persian-rug-weaving",
+      "excerpt": "Discover the centuries-old tradition of Persian rug making and how these masterpieces transform any living space into a work of art.",
+      "content": "Persian rugs represent one of the most sophisticated forms of textile art in the world. Each piece tells a story through intricate patterns, vibrant colors, and masterful craftsmanship that has been passed down through generations.\n\nThe process of creating a Persian rug is both an art and a science. Master weavers spend months or even years on a single piece, carefully selecting materials and following traditional patterns that have been refined over centuries.\n\nWhat sets Persian rugs apart is not just their beauty, but their incredible durability. A well-made Persian rug can last for generations, actually becoming more beautiful with age as the colors develop a rich patina.",
+      "category": "Traditional Rugs",
+      "date": "2024-03-15",
+      "readTime": "8 min read",
+      "image": "🏛️",
+      "tags": ["persian", "handwoven", "traditional", "craftsmanship"]
+    }
+    
+  ]
+}
