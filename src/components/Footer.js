@@ -33,7 +33,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" className="inline-block mb-6">
-              <div className="h-12 w-auto relative group">
+              {/* <div className="h-12 w-auto relative group">
                 <Image
                   src="/dhruv-logo.jpg"
                   alt="Dhruv Rugs International"
@@ -42,7 +42,7 @@ export default function Footer() {
                   className="h-12 w-auto object-contain brightness-0 invert group-hover:scale-105 transition-transform"
                   priority
                 />
-              </div>
+              </div> */}
             </Link>
             <p className="text-white/80 leading-relaxed mb-6">
               Discover the artistry of premium rugs and carpets. Expert insights, care tips, 
