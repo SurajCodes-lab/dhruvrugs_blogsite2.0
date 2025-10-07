@@ -48,7 +48,7 @@ export default function Footer() {
               Discover the artistry of premium rugs and carpets. Expert insights, care tips, 
               and design inspiration for transforming your space.
             </p>
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               {socialLinks.map((social) => (
                 <Link 
                   key={social.label}
@@ -59,7 +59,7 @@ export default function Footer() {
                   {social.icon}
                 </Link>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Navigation */}
@@ -106,23 +106,23 @@ export default function Footer() {
                 <span className="text-[#d4a574] text-xl mt-0.5">📧</span>
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-sm">info@dhruvrugs.com</p>
+                  <p className="text-sm">  info@dhruvrugs.global</p>
                 </div>
               </div>
-              <div className="flex items-start gap-3 text-white/70 hover:text-white transition-colors group">
+              {/* <div className="flex items-start gap-3 text-white/70 hover:text-white transition-colors group">
                 <span className="text-[#d4a574] text-xl mt-0.5">📞</span>
                 <div>
                   <p className="font-medium">Phone</p>
                   <p className="text-sm">+91 98765 43210</p>
                 </div>
-              </div>
-              <div className="flex items-start gap-3 text-white/70 hover:text-white transition-colors group">
+              </div> */}
+              {/* <div className="flex items-start gap-3 text-white/70 hover:text-white transition-colors group">
                 <span className="text-[#d4a574] text-xl mt-0.5">📍</span>
                 <div>
                   <p className="font-medium">Location</p>
                   <p className="text-sm">Mumbai, India</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -132,7 +132,7 @@ export default function Footer() {
           <p className="text-white/60 text-sm">
             © {new Date().getFullYear()} Dhruv Rugs International. All rights reserved.
           </p>
-          <div className="flex gap-6 text-sm">
+          {/* <div className="flex gap-6 text-sm">
             <Link href="/privacy" className="text-white/60 hover:text-[#d4a574] transition-colors">
               Privacy Policy
             </Link>
@@ -142,7 +142,7 @@ export default function Footer() {
             <Link href="/sitemap" className="text-white/60 hover:text-[#d4a574] transition-colors">
               Sitemap
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

@@ -48,7 +48,7 @@ export default function Header() {
           <div className="h-14 w-auto relative">
             {!imageError ? (
               <Image
-                src="/dhruv-logo.jpg"
+                src="/"
                 alt="Dhruv Rugs International"
                 width={200}
                 height={56}
