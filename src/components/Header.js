@@ -44,7 +44,7 @@ export default function Header() {
     <header className={`fixed top-0 w-full z-50 transition-all duration-500 ${scrolled ? 'glass-strong shadow-lg' : 'glass'}`}>
       <nav className="max-w-7xl mx-auto px-6 flex justify-between items-center py-6">
         <Link href="/" className="group">
-          <span className="text-3xl font-bold bg-gradient-to-r from-[#8b2635] to-[#c1666b] bg-clip-text text-transparent group-hover:scale-105 transition-transform inline-block">
+          <span className="text-4xl font-black text-[#8b2635] group-hover:scale-105 transition-transform inline-block tracking-wide">
             DHRUV
           </span>
         </Link>

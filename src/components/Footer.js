@@ -26,7 +26,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" className="inline-block mb-6">
-              <span className="text-3xl font-bold bg-gradient-to-r from-[#d4a574] to-[#8b2635] bg-clip-text text-transparent hover:scale-105 transition-transform inline-block">
+              <span className="text-4xl font-black text-[#d4a574] hover:scale-105 transition-transform inline-block tracking-wide">
                 DHRUV
               </span>
             </Link>
