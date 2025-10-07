@@ -86,13 +86,13 @@ export default function Hero() {
               </div>
             </div>
             
-            <div className="mt-8 pt-8 border-t border-[#1a1d29]/10">
+            {/* <div className="mt-8 pt-8 border-t border-[#1a1d29]/10">
               <div className="flex items-center justify-between">
                 <span className="text-sm font-medium text-[#2d3142]">Trusted by</span>
                 <span className="text-2xl font-bold text-[#8b2635]">500+</span>
               </div>
               <p className="text-xs text-[#2d3142] mt-1">Global Customers</p>
-            </div>
+            </div> */}
           </div>
           
           <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-br from-[#d4a574] to-[#e6c79c] rounded-full blur-2xl opacity-50"></div>
