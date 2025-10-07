@@ -1,5 +1,5 @@
+// Footer.js
 import Link from 'next/link'
-import Image from 'next/image'
 import blogData from '@/lib/utils/blogData.json'
 
 export default function Footer() {
@@ -16,13 +16,6 @@ export default function Footer() {
     href: `/blog?category=${encodeURIComponent(category.name)}`
   }))
 
-  const socialLinks = [
-    { label: 'Instagram', href: '#', icon: '📷' },
-    { label: 'Facebook', href: '#', icon: '📘' },
-    { label: 'Pinterest', href: '#', icon: '📌' },
-    { label: 'Twitter', href: '#', icon: '🐦' },
-  ]
-
   return (
     <footer className="glass-dark text-white py-16 relative overflow-hidden">
       {/* Decorative accents */}
@@ -33,33 +26,14 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" className="inline-block mb-6">
-              {/* <div className="h-12 w-auto relative group">
-                <Image
-                  src="/dhruv-logo.jpg"
-                  alt="Dhruv Rugs International"
-                  width={200}
-                  height={48}
-                  className="h-12 w-auto object-contain brightness-0 invert group-hover:scale-105 transition-transform"
-                  priority
-                />
-              </div> */}
+              <span className="text-3xl font-bold bg-gradient-to-r from-[#d4a574] to-[#8b2635] bg-clip-text text-transparent hover:scale-105 transition-transform inline-block">
+                DHRUV
+              </span>
             </Link>
             <p className="text-white/80 leading-relaxed mb-6">
               Discover the artistry of premium rugs and carpets. Expert insights, care tips, 
               and design inspiration for transforming your space.
             </p>
-            {/* <div className="flex gap-4">
-              {socialLinks.map((social) => (
-                <Link 
-                  key={social.label}
-                  href={social.href}
-                  className="w-10 h-10 rounded-full glass flex items-center justify-center text-lg hover:glass-accent hover:scale-110 transition-all duration-300"
-                  aria-label={social.label}
-                >
-                  {social.icon}
-                </Link>
-              ))}
-            </div> */}
           </div>
 
           {/* Navigation */}
@@ -106,23 +80,11 @@ export default function Footer() {
                 <span className="text-[#d4a574] text-xl mt-0.5">📧</span>
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-sm">  info@dhruvrugs.global</p>
+                  <a href="mailto:info@dhruvrugs.global" className="text-sm hover:text-[#d4a574] transition-colors">
+                    info@dhruvrugs.global
+                  </a>
                 </div>
               </div>
-              {/* <div className="flex items-start gap-3 text-white/70 hover:text-white transition-colors group">
-                <span className="text-[#d4a574] text-xl mt-0.5">📞</span>
-                <div>
-                  <p className="font-medium">Phone</p>
-                  <p className="text-sm">+91 98765 43210</p>
-                </div>
-              </div> */}
-              {/* <div className="flex items-start gap-3 text-white/70 hover:text-white transition-colors group">
-                <span className="text-[#d4a574] text-xl mt-0.5">📍</span>
-                <div>
-                  <p className="font-medium">Location</p>
-                  <p className="text-sm">Mumbai, India</p>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>
@@ -132,17 +94,6 @@ export default function Footer() {
           <p className="text-white/60 text-sm">
             © {new Date().getFullYear()} Dhruv Rugs International. All rights reserved.
           </p>
-          {/* <div className="flex gap-6 text-sm">
-            <Link href="/privacy" className="text-white/60 hover:text-[#d4a574] transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="/terms" className="text-white/60 hover:text-[#d4a574] transition-colors">
-              Terms of Service
-            </Link>
-            <Link href="/sitemap" className="text-white/60 hover:text-[#d4a574] transition-colors">
-              Sitemap
-            </Link>
-          </div> */}
         </div>
       </div>
     </footer>

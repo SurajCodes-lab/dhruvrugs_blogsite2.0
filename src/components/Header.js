@@ -1,14 +1,13 @@
+// Header.js
 'use client'
 import { useState, useEffect } from 'react'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function Header() {
   const pathname = usePathname()
   const [activeLink, setActiveLink] = useState('home')
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [imageError, setImageError] = useState(false)
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
@@ -44,24 +43,10 @@ export default function Header() {
   return (
     <header className={`fixed top-0 w-full z-50 transition-all duration-500 ${scrolled ? 'glass-strong shadow-lg' : 'glass'}`}>
       <nav className="max-w-7xl mx-auto px-6 flex justify-between items-center py-6">
-        <Link href="/" className="flex items-center group">
-          <div className="h-14 w-auto relative">
-            {!imageError ? (
-              <Image
-                src="/"
-                alt="Dhruv Rugs International"
-                width={200}
-                height={56}
-                className="h-14 w-auto object-contain drop-shadow-md transition-transform duration-300 group-hover:scale-105"
-                onError={() => setImageError(true)}
-                priority
-              />
-            ) : (
-              <div className="h-14 px-6 bg-gradient-to-r from-[#8b2635] to-[#c1666b] rounded-lg flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-xl tracking-wider">DHRUV</span>
-              </div>
-            )}
-          </div>
+        <Link href="/" className="group">
+          <span className="text-3xl font-bold bg-gradient-to-r from-[#8b2635] to-[#c1666b] bg-clip-text text-transparent group-hover:scale-105 transition-transform inline-block">
+            DHRUV
+          </span>
         </Link>
         
         <ul className="hidden md:flex gap-12 items-center">
